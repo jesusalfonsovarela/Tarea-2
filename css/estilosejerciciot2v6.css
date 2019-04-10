@@ -1,0 +1,12 @@
+table{border-collapse:collapse; text-align:center; font-family:sans-serif; }
+td,th {border:1px solid lightpink;}
+caption{ background-color:lightpink; color:green; font-size:18px;}
+tbody tr th:first-child{background-color:lightpink; color:green; font-size:18px;}
+tbody tr:nth-child(4) td:nth-child(2){ background-color:lightgreen;}
+tr td:nth-child(7):hover
+tr td:nth-child(2):hover
+tr td:last-child:hover{
+	font-size: 1.8em;
+	background-color: grey;
+	color:green;
+}
